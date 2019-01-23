@@ -79,6 +79,10 @@
         android:defaultValue=""
         android:persistent="true" />
 
+    <Preference
+        android:key="pref_hidelock_apps"
+        android:title="@string/hidelock_apps_manager_name" />
+
     <ListPreference
         android:key="pref_grid_columns"
         android:title="@string/number_of_columns_title"
